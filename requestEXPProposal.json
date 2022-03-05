@@ -1,0 +1,20 @@
+{
+	"messages": [
+		{
+			"@type": "/cosmos.gov.v1beta2.MsgExecLegacyContent",
+			"authority": "cosmos1slvj3lhag59s7pk0tp6eljz3zwun9e77am4xye",
+			"content": {
+				"@type": "/cosmos.gov.v1beta1.Request",
+				"title": "My title for the prop",
+				"description": "my description",
+                "walletToBeWhitelisted": "cosmos1slvj3lhag59s7pk0tp6eljz3zwun9e77am4xye",
+                "depositAssets": "BTC,ETH,ATOM,JUNO",
+                "maxMintableExp": 10000,
+                "closePoolDate": "2022-08-01T00:00:00Z",
+                "vestingPeriodEnd": "2023-01-01T00:00:00Z"
+			}
+		}
+  	],
+	"metadata": null,
+	"deposit": "1000stake"
+}
